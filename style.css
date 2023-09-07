@@ -1,0 +1,213 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left:30px ;
+    padding-right: 30px;
+    
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF1DA;
+    border-radius: 5px;
+    height: 15vh;
+    
+
+}
+
+.logo-image{
+    height:30px;
+    width:100px;
+    padding-left: 10px;
+}
+
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    padding-left:30px ;
+    padding-right: 30px;
+
+}
+
+.nav-item{
+    list-style: none;
+}
+
+a{
+    color:#212832;
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 1s;
+
+}
+a:hover{
+    transform: scale(1.0);
+    text-decoration: underline;
+    color: #212832;
+}
+.travel-image{
+    height: 500px;
+    padding-top: 50px;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    color: #DF6951;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.travel-heading{
+    font-family: "Bree-serif";
+    color: #181E4B;
+    font-size: 45px;
+    margin: 0px;
+    padding: 0px;
+}
+.travel-discription{
+    font-size: 15px;
+    font-weight: 500;
+    color: #5E6282;
+    font-family: sans-serif;
+}
+.find-out-more-btn{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.category-heading{
+    color:#5E6282;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.services-heading{
+    color: #14183E;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.services-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+.services{
+    border-radius: 8px;
+    padding: 20px;
+    background-color: cornsilk;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+.services:hover{
+    transform: scale(1.2);
+
+}
+.flight-image{
+    height: 100px;
+
+}
+
+.flight-heading{
+    color:#1E1D4C;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.destination-heading{
+    color: #14183E;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.trips-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.destination-item{
+    min-height: 300px;
+    width:200px;
+    padding: 10px;
+    margin: 20px;
+    background: #FFF1DA;
+}
+.destination-image{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    transition: 1s;
+}
+.destination-image:hover{
+    transform: scale(1.2);
+}
+.destination{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+.trip{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.country{
+    color: #5E6282;
+    font-size: 15px;
+}
+.trip-duration{
+    color: #5E6282;
+    font-size: 15px;
+}
+.social-media-description{
+    color: #14183E;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: sans-serif;
+
+      
+}
+.media-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.media-icon{
+    transition: 2s;
+}
+.media-icon:hover{
+    transform: scale(1.3);
+}
