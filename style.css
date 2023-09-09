@@ -1,8 +1,15 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     margin: 0px;
     box-sizing: border-box;
-    padding-left:30px ;
-    padding-right: 30px;
+    padding-left:50px ;
+    padding-right: 50px;
+    
     
 }
 .navbar{
@@ -10,9 +17,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #FFF1DA;
-    border-radius: 5px;
     height: 15vh;
+    position: fixed;
+    background-color: white;
     
 
 }
@@ -26,7 +33,7 @@ body{
 .navbar-container{
     display: flex;
     flex-direction: row;
-    padding-left:30px ;
+    padding-left:650px ;
     padding-right: 30px;
 
 }
@@ -59,11 +66,14 @@ a:hover{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-top: 100px;
+    
 }
 .heading{
     color: #DF6951;
     font-family: sans-serif;
     font-size: 20px;
+    padding-bottom: 15px;
 }
 .travel-heading{
     font-family: "Bree-serif";
@@ -71,12 +81,14 @@ a:hover{
     font-size: 45px;
     margin: 0px;
     padding: 0px;
+    padding-bottom: 15px;
 }
 .travel-discription{
     font-size: 15px;
     font-weight: 500;
     color: #5E6282;
     font-family: sans-serif;
+    padding-bottom: 15px;
 }
 .find-out-more-btn{
     background-color: orange;
@@ -98,11 +110,11 @@ a:hover{
 }
 .services-heading{
     color: #14183E;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: 600;
-    text-align: center;
     padding: 0px;
     margin: 0px;
+    
 }
 .services-container{
     display: flex;
@@ -129,6 +141,7 @@ a:hover{
 }
 .flight-image{
     height: 100px;
+    padding-bottom: 25px;
 
 }
 
@@ -137,8 +150,15 @@ a:hover{
     font-size: 20px;
     font-weight: 600;
     font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 5px;
 }
 
+.desc{
+    color: grey;
+    font-size: small;
+}
 .destination-heading{
     color: #14183E;
     font-size: 40px;
@@ -146,30 +166,35 @@ a:hover{
     text-align: center;
     padding: 0px;
     margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 .trips-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 .destination-item{
-    min-height: 300px;
-    width:200px;
+    min-height: 250px;
+    width: 200px;
     padding: 10px;
     margin: 20px;
     background: #FFF1DA;
+    transition: 2s;
+    border-radius: 10px;
+}
+.destination-item:hover{
+    transform: scale(1.3);
 }
 .destination-image{
     height: 100%;
     width: 100%;
     margin: 0px;
     padding: 0px;
-    transition: 1s;
+    padding-bottom: 25px;
 }
-.destination-image:hover{
-    transform: scale(1.2);
-}
+
 .destination{
     display: flex;
     flex-direction: row;
@@ -186,6 +211,7 @@ a:hover{
 .country{
     color: #5E6282;
     font-size: 15px;
+    padding-bottom: 8px;
 }
 .trip-duration{
     color: #5E6282;
@@ -210,4 +236,77 @@ a:hover{
 }
 .media-icon:hover{
     transform: scale(1.3);
+}
+
+.packages-heading{
+    text-align: center;
+    color: #14183E;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.packages-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.packages-desc{
+    background-color: #FFF1DA;
+    margin: 15px;
+    border-radius: 8px;
+    transition: 2s;
+    
+}
+.packages-desc:hover{
+    transform: scale(1.3);
+}
+
+.packages-images{
+    height: 170px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.coutry-name-package{
+    color: gray;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.hr-line{
+    width:50px;
+}
+
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    margin-top: 50px;
+}
+
+.media-desc-container{
+    padding: 40px;
+}
+
+.contact-headings{
+    padding-bottom: 10px;
+}
+
+.contact-desc{
+    padding-top: 10px;
+}
+
+.connect-icons{
+    padding-top: 10px;
+    padding-bottom: 25px;
+
 }
